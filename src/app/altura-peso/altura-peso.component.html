@@ -1,0 +1,12 @@
+<div class="flex flex-col">
+    <div class="flex flex-row items-center justify-center">
+        <super-boton texto="-" color="lightblue" (click)="restarPeso()" (mousedown)="startLessPeso()" (mouseup)="stopLessPeso()"></super-boton>
+        <p> {{ valorPeso }} kg </p>
+        <super-boton texto="+" color="lightblue" (click)="sumarPeso()" (mousedown)="startIncrementPeso()" (mouseup)="stopIncrementPeso()"></super-boton>
+    </div>
+    <div class="flex flex-row items-center justify-center">
+        <super-boton texto="-" color="lightblue" (click)="restarAltura()" (mousedown)="startLessAltura()" (mouseup)="stopLessAltura()"></super-boton>
+        <p> {{ valorAltura }} cm </p>
+        <super-boton texto="+" color="lightblue" (click)="sumarAltura()" (mousedown)="startIncrementAltura()" (mouseup)="stopIncrementAltura()"></super-boton>
+    </div>
+</div>
