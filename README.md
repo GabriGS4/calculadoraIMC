@@ -1,6 +1,11 @@
 # CalculadoraImcApp
 
-El proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) en la version 15.0.2.
+To visit the app, click [here](https://calculadora-imc-app.vercel.app/).
+
+## To upload the website in Github Pages
+
+Run `ng add angular-cli-ghpages` to install the package.
+Run `ng deploy --base-href=urlGithubPages` to deploy the website.
 
 ## Crear proyecto
 
