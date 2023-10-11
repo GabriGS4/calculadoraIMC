@@ -1,6 +1,6 @@
 # CalculadoraImcApp
 
-To visit the app, click [here](https://calculadora-imc-app.vercel.app/).
+To visit the app, click [here](https://gabrigs4.github.io/calculadoraIMC).
 
 ## To upload the website in Github Pages
 
